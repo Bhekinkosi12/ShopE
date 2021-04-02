@@ -18,6 +18,7 @@ namespace ShopE.Views
             InitializeComponent();
             Timer timer = new Timer(3000);
             timer.Start();
+            
             timer.Elapsed += ((sender, e) =>
             {
                 if (PopupNavigation.Instance.PopupStack.Count > 0)
